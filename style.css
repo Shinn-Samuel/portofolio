@@ -14,7 +14,7 @@ p {
     margin: 0 auto;
 }
 
-button {
+.btn {
     background-color: #1a1a1a;
     color: white;
     padding: 10px 20px;
@@ -22,9 +22,11 @@ button {
     border-radius: 10px;
     cursor: pointer;
     margin-top:20px;
+    text-decoration: none;
+    display: inline-block;
 }
 
-button:hover {
+.btn:hover {
     background-color: #ffcc00;
     color: black;
 }
